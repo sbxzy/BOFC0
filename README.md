@@ -3,6 +3,26 @@
 
 License: Free to use but restricted. Please, do not decrypt the encrypted py files. If you want to use these encrypted resources and egg model (animation) files, contact the author at sbxzy@foxmail.com
 
+Requirments 前置条件：
+numpy
+hashlib
+binascii
+pygame
+pygame-menu
+requests
+yaml
+lxml
+inputs
+pyautogui
+
+and most importantly:
+Panda3D development version. (You can try pip3 install --pre --extra-index-url https://archive.panda3d.org/ panda3d)
+
+After that, switch to the ‘game’ directory and run
+python3 BOFC.py
+
+You may need to install more packages that are reported missing.
+
 手册Manual
 在game文件夹下，查看和修改’keys.txt’来控制游戏按键。游戏中经常用j键打开查看玩法提示。如果您有多个显卡，请设置libs文件夹下的panda111.exe采用高性能GPU运行。游戏作弊码(通过回车键激活)如下表：
 Keys are configured in ‘keys.txt’ under the ‘game’ directory. In the game, if you don’t know what to do, always press ‘j’ to see hints. If you have multiple video cards, please set the panda111.exe under libs folder to run with high performance GPU.

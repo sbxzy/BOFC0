@@ -24,8 +24,8 @@ python3 BOFC.py
 You may need to install more packages that are reported missing.
 
 手册Manual
-在game文件夹下，查看和修改’keys.txt’来控制游戏按键。游戏中经常用j键打开查看玩法提示。如果您有多个显卡，请设置libs文件夹下的panda111.exe采用高性能GPU运行。游戏作弊码(通过回车键激活)如下表：
-Keys are configured in ‘keys.txt’ under the ‘game’ directory. In the game, if you don’t know what to do, always press ‘j’ to see hints. If you have multiple video cards, please set the panda111.exe under libs folder to run with high performance GPU.
+在game文件夹下，查看和修改’keys.txt’来控制游戏按键。游戏中经常用j键打开查看玩法提示。如果您有多个显卡，请设置采用高性能GPU运行。游戏作弊码(通过回车键激活)如下表：
+Keys are configured in ‘keys.txt’ under the ‘game’ directory. In the game, if you don’t know what to do, always press ‘j’ to see hints. If you have multiple video cards, please set it to run with high performance GPU.
 Press Enter can invoke console for cheats.
 Cheat code:
 Code	Function
@@ -69,6 +69,6 @@ RenderPipeline include following files (under the ‘game’ directory):
  
 
 The libs folder contains a minimal Python environment that runs the game. It is distributed under the python software foundation license.
-Apart from files mentioned above, other files and codes are copyrighted to the game author Zhiyang Xiang (email sbxzy@foxmail.com). Please contact the author if any of your arts are not listed above. If you want to use models, sounds or other code stuff created by the author in your own projects, also contact sbxzy@foxmail.com.
+Apart from files mentioned above, other files and codes are copyrighted to the game author (email sbxzy@foxmail.com). Please contact the author if any of your arts are not listed above. If you want to use models, sounds or other code stuff created by the author in your own projects, also contact sbxzy@foxmail.com.
 2020-08-04
 

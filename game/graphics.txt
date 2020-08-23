@@ -1,0 +1,2 @@
+fullscreen 0 win-size 800 450 window-title BoFC.Prelude
+poor

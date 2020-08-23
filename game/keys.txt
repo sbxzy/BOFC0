@@ -1,0 +1,11 @@
+key,function(please do not change keys sequence, nor add spaces after ,)
+w,walk forward
+s,backward walk
+a,walk left
+d,walk right
+space,jump
+lcontrol,crouch(can only be control or shift)
+x,switch between third person view and first person
+wheel_up,weapon switch
+wheel_down,weapon switch
+escape,save and end day

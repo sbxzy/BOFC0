@@ -1,0 +1,403 @@
+<root>
+ <plots name="SBXZY">
+<tutorial title = '工作的最后一天'>
+<s0>
+<show>
+你被公司辞退了！公司提供了帮助，去(-17,-8)位置找到Vic。请务必接受Vic转交的两个公司赠送物品！
+You are fired! Vic from the company is ready to give help at (-17,-8)。Make sure to pickup two items Vic tell you about.
+</show>
+<next flag = 'assign' name = 'Vic'>
+</next>
+</s0>
+</tutorial>
+
+<assign title = '领取物品'>
+<s0>
+<show>
+靠近物品自动拾取。按i键打开或关闭物品栏。射线可以穿透软体，产生的爆炸也会对自己造成伤害，但是距离越远，或者是衰减值越大，自己受到的伤害越小。左上第一格对应鼠标左键，第二格为鼠标右键。按鼠标滚轮切换主副武器。左边第三行放置治疗器，请确保您自伤的速度小于治疗速度。拾起物存放在右边最后一行，如果其中有您需要的，请即使手动放置到其他位置。因为新拾取的碎片，会自动占据最后一行的位置。
+</show>
+<next flag = 'item.xzy' name = 'None'>
+</next>
+</s0>
+</assign>
+
+<start title = '操作方法'>
+<s0>
+<show>
+WASD移动，双击AD进行大跳，空格普通跳跃。ESC保存并推出。
+在游戏目录下的keys.txt中更改默认按键。
+如果保存游戏，则必须结束当前一天，重新开始一天重置时间为上午。
+</show>
+<next flag = 'newworld' name = 'Vic2'>
+</next>
+</s0>
+<s1>
+<show>
+WASD移动，双击AD进行大跳，空格普通跳跃。ESC保存并推出。
+在游戏目录下的keys.txt中更改默认按键。
+如果保存游戏，则必须结束当前一天，重新开始一天重置时间为上午。
+</show>
+<next flag = 'start' name = 'Vic'>
+</next>
+</s1>
+</start>
+
+<newworld>
+<s1>
+<show>
+请带领Vic去到无墙庙附近！
+</show>
+<next flag = 'vicfollowing' name = 'None'>
+</next>
+</s1>
+<s-1>
+<show>
+Vic希望跟您合作，可以在-3779.22, -3599.43附近找到她。
+</show>
+<next flag = 'newworld' name = 'Vic2'>
+</next>
+</s-1>
+</newworld>
+
+<explain>
+<s0>
+<show>
+翟神星的地方管理者们使用古中国的爵位头衔，说话一般使用暗语。可以让Vic给您解释更多细节。
+</show>
+<next flag = 'explained' name = 'Vic2'>
+</next>
+</s0>
+</explain>
+
+<explained>
+<s1>
+<show>
+您学会了翟星暗语！现在可以选择是否帮助Vic，加入到本地社会秩序当中了。
+</show>
+<next flag = 'start1_1' name = 'Vic2'>
+</next>
+</s1>
+<s0>
+<show>
+您对本地语言的理解还不够充分，请去找Vic学习一下。
+</show>
+<next flag = 'explained' name = 'Vic2'>
+</next>
+</s0>
+<s-1>
+<show>
+您对本地语言的理解还不够充分，请去找Vic学习一下。
+</show>
+<next flag = 'explained' name = 'Vic2'>
+</next>
+</s-1>
+</explained>
+
+<end1_1>
+<s0>
+<show>
+您帮助元始子爵统一了整个区域！恭喜过关。
+</show>
+<next flag = 'end1_1' name = 'Vic2'>
+</next>
+</s0>
+<s1>
+<show>
+您帮助元始子爵统一了整个区域！恭喜过关。
+</show>
+<next flag = 'end1_1' name = 'quest'>
+</next>
+</s1>
+</end1_1>
+
+<start1_1>
+<s1>
+<show>
+您选择与Vic合作，将信使安全带到另一个无墙庙！信使是类似蚂蚁形状的基因工程产物，如果被破坏，会定时重生。它们会避开引导器做出的标记，因此您可以用引导器调控信使的前进路径。其他男爵们一般是在无墙庙的高台上。它会自行活动，请劳烦您追上它并为它规划路径。信使的出重生地点会用一个小旗标记，如果到达男爵领地交界的地方，重生点会更新，信使则会跟随您。将信使带到新的庙之后，与庙上的男爵讨论忠诚和归宿话题，让他或她效忠您当前结盟的对象。
+</show>
+<next flag = 'started1_1.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您选择与Vic合作，将信使安全带到另一个无墙庙！信使是类似蚂蚁形状的基因工程产物，如果被破坏，会定时重生。它们会避开引导器做出的标记，因此您可以用引导器调控信使的前进路径。其他男爵们一般是在无墙庙的高台上。它会自行活动，请劳烦您追上它并为它规划路径。信使的出重生地点会用一个小旗标记，如果到达男爵领地交界的地方，重生点会更新，信使则会跟随您。将信使带到新的庙之后，与庙上的男爵讨论忠诚和归宿话题，让他或她效忠您当前结盟的对象。
+</show>
+<next flag = 'start1_1.0' name = 'quest'>
+</next>
+</s0>
+</start1_1>
+
+<start1_2>
+<s1>
+<show>
+您与阏旃男爵讨论了忠诚问题。
+</show>
+<next flag = 'started1_2.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您与阏旃男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'start1_2' name = 'baron1_2'>
+</next>
+</s0>
+<s-1>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start1_2.-1' name = 'quest'>
+</next>
+</s-1>
+</start1_2>
+
+<start1_3>
+<s1>
+<show>
+您与阏柔男爵讨论了忠诚问题。
+</show>
+<next flag = 'started1_3.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您与阏柔男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'start1_3' name = 'baron1_3'>
+</next>
+</s0>
+<s-1>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start1_3.-1' name = 'quest'>
+</next>
+</s-1>
+</start1_3>
+
+<start2_1>
+<s1>
+<show>
+您与旃阏男爵讨论了忠诚问题。
+</show>
+<next flag = 'started2_1.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您与旃阏男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'start2_1' name = 'baron2_1'>
+</next>
+</s0>
+<s-1>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start2_1.-1' name = 'quest'>
+</next>
+</s-1>
+</start2_1>
+
+<start2_2>
+<s1>
+<show>
+您与旃蒙男爵讨论了忠诚问题。
+</show>
+<next flag = 'started2_2.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您与旃蒙男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'start2_2' name = 'baron2_2'>
+</next>
+</s0>
+<s-1>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start2_2.-1' name = 'quest'>
+</next>
+</s-1>
+</start2_2>
+
+<start2_3>
+<s1>
+<show>
+您与旃柔男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'started2_3.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start2_3' name = 'baron2_3'>
+</next>
+</s0>
+<s-1>
+<show>
+您与旃柔男爵讨论了忠诚问题。
+</show>
+<next flag = 'start2_3.-1' name = 'quest'>
+</next>
+</s-1>
+</start2_3>
+
+<start3_1>
+<s1>
+<show>
+您与柔阏男爵讨论了忠诚问题。
+</show>
+<next flag = 'started3_1.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您与柔阏男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'start3_1' name = 'baron3_1'>
+</next>
+</s0>
+<s-1>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start3_1.-1' name = 'quest'>
+</next>
+</s-1>
+</start3_1>
+
+<start3_2>
+<s1>
+<show>
+您与柔旃男爵讨论了忠诚问题。
+</show>
+<next flag = 'started3_2.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您与柔旃男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'start3_2' name = 'baron3_2'>
+</next>
+</s0>
+<s-1>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start3_2.-1' name = 'quest'>
+</next>
+</s-1>
+</start3_2>
+
+<start3_3>
+<s1>
+<show>
+您与柔兆男爵讨论了忠诚问题。
+</show>
+<next flag = 'started3_3.1' name = 'quest'>
+</next>
+</s1>
+<s0>
+<show>
+您与柔兆男爵的沟通出现了一些问题，可以再去聊一下。
+</show>
+<next flag = 'start3_3' name = 'baron3_3'>
+</next>
+</s0>
+<s-1>
+<show>
+您更换了信使出发的方向。
+</show>
+<next flag = 'start3_3.-1' name = 'quest'>
+</next>
+</s-1>
+</start3_3>
+
+<end1_2>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end1_2' name = 'Vic2'>
+</next>
+</s0>
+</end1_2>
+
+<end1_3>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end1_3' name = 'Vic2'>
+</next>
+</s0>
+</end1_3>
+
+<end2_1>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end2_1' name = 'Vic2'>
+</next>
+</s0>
+</end2_1>
+
+<end2_2>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end2_2' name = 'Vic2'>
+</next>
+</s0>
+</end2_2>
+
+<end2_3>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end2_3' name = 'Vic2'>
+</next>
+</s0>
+</end2_3>
+
+<end3_1>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end3_1' name = 'Vic2'>
+</next>
+</s0>
+</end3_1>
+
+<end3_2>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end3_2' name = 'Vic2'>
+</next>
+</s0>
+</end3_2>
+
+<end3_3>
+<s0>
+<show>
+您帮助元始子爵统一了这个区域！
+</show>
+<next flag = 'end3_3' name = 'Vic2'>
+</next>
+</s0>
+</end3_3>
+
+</plots>
+</root>

@@ -1,0 +1,11 @@
+vertex:
+    inout: |
+        uniform int osg_FrameNumber;
+    transform: |
+        if (mod(p3d_Vertex.x , 200.0) >0.001 && mod(p3d_Vertex.y, 200.0) >0.001)
+        {
+        float deltas = sin(osg_FrameNumber/3*((p3d_Vertex.x + 200.0)*0.0044311346)*((p3d_Vertex.y + 200.0)*0.0044311346)*0.1);
+        vOutput.position.z -= 0.1*deltas;
+        vOutput.position.x += 0.02*deltas;
+        vOutput.position.y += 0.02*deltas;
+        }

@@ -1,0 +1,23 @@
+***If you are using gamepad, when you change 'keys.txt', use only keys in that file. Because gamepad keys are mappings to those keys in this app.***
+***请在启动游戏之前插好手柄***
+***Make sure to plugin the gamepad BEFORE you start the game***
+
+左摇杆left axis：鼠标控制mouse directions
+右摇杆right axis：鼠标滚轮mouse scroll
+Y：前进move forward
+S：向左move left
+B：向右move right
+A: 跳jump
+LT:武器副模式 weapon secondary fire
+LB:物品栏 inventory
+RT:武器主模式 weapon primary fire mode
+RB:任务日志 quest journal
+SELECT:切换第一和三人称 switch bewteen first and third person view
+START:退出并保存 quit level and save
+Left axis button:蹲下 crouch
+Right axis button:后退 move backwards
+Dpad Up: 选择 1
+Dpad Down: 选择 2
+Dpad Left: 选择 3
+Dpad Right：选择 4 
+

@@ -41,7 +41,7 @@ For non-Chinese players: All plots are in the form of xml files under the ‘gam
 
 
 ### License: 
-Free to use but restricted. Please, do not decrypt the encrypted py files. If you want to use these encrypted resources and egg model (animation) files, contact the author at sbxzy@foxmail.com or can [buy](https://www.microsoft.com/store/productId/9N82ZJHM81WJ) a windows version at Microsoft appstore, and send me the bill information through the email. I will reply with zipped code that run the complete game. After recieving the pack, simply unzip and overwrite all py files and folders.
+Free to use but restricted. Please, do not decrypt the encrypted py files. If you want to use these encrypted resources and egg/bam model (animation) files, contact the author at sbxzy@foxmail.com or can [buy](https://www.microsoft.com/store/productId/9N82ZJHM81WJ) a Windows version at Microsoft appstore, and send the author the bill information through the email. The author will reply with zipped code that run the complete game in several working days. After recieving the pack, simply unzip and overwrite all py files and folders. By buying the game, the author grand you every right on the contents copyrighted to the author except the encrypted py files. The author do not hold copyright to following contents.
 
 This game includes files from several CC series copyrighted.
 Under the directories ‘musics/peace’ and ‘0addata’ under the game directory. All ogg files are from this project:

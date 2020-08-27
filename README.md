@@ -14,6 +14,7 @@ yaml
 lxml
 inputs
 pyautogui
+gibberish
 
 and most importantly:
 Panda3D development version. (You can try pip3 install --pre --extra-index-url https://archive.panda3d.org/ panda3d)

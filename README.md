@@ -10,7 +10,7 @@ binascii
 pygame
 pygame-menu
 requests
-yaml
+pyyaml
 lxml
 inputs
 pyautogui
